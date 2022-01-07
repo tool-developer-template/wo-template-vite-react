@@ -32,7 +32,7 @@ export default defineConfig({
   resolve:{
     alias:{
       "@": [path.resolve(__dirname, "./src/")],
-      "@@": [path.resolve(__dirname, "./src/.wo/")],
+      "@@": [path.resolve(__dirname, "./src/.wo-vite/")],
       "~antd":[path.resolve(__dirname, "./node_modules/antd/")],
       //
       "@tool-developer/wo-storage":[path.resolve(__dirname, "./node_modules/@tool-developer/wo-storage/esm")]
@@ -40,8 +40,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      //'/static/uploads':"http://127.0.0.1:3002/",
-      '/static/uploads':"https://toolne.com/"
+      '/static/uploads':"http://127.0.0.1:3002/",
     }
   }
 })

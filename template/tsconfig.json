@@ -20,7 +20,7 @@
     "jsx": "react",
     "paths": {
       "@/*": ["./src/*"],
-      "@@/*": ["./src/.wo/*"],
+      "@@/*": ["./src/.wo-vite/*"],
       "~antd":["./node_modules/antd/*"]
     }
   },
