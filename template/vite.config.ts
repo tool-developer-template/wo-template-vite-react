@@ -35,7 +35,8 @@ export default defineConfig({
       "@@": [path.resolve(__dirname, "./src/.wo-vite/")],
       "~antd":[path.resolve(__dirname, "./node_modules/antd/")],
       //
-      "@tool-developer/wo-storage":[path.resolve(__dirname, "./node_modules/@tool-developer/wo-storage/esm")]
+      //"@tool-developer/wo-storage":[path.resolve(__dirname, "./node_modules/@tool-developer/wo-storage/dist")],
+      //"@tool-developer/wo-request":[path.resolve(__dirname, "./node_modules/@tool-developer/wo-request/dist")]
     }
   },
   server: {

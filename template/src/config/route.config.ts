@@ -1,4 +1,4 @@
-export default [{
+export default [/*{
 	path: '/user',
 	component: '../layout/UserLayout/index',
 	routes: [
@@ -11,7 +11,7 @@ export default [{
 			component: '../pages/exception/404/index',
 		},
 	],
-},{
+},*/{
 	path: '/',
 	component:"../layout/BasicLayout/index",
 	routes:[{
