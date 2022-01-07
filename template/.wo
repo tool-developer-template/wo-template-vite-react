@@ -1,0 +1,10 @@
+#
+TYPE=vite-react
+
+# branch
+BRANCH=<%= branch%>
+
+#
+SRC_PAGES=src/pages/
+#
+COMPONENT=src/components/
