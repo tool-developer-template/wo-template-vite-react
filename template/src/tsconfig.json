@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "skipLibCheck": false,
+    "experimentalDecorators": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@@/*": ["./src/.wo/*"],
+      "~antd":["./node_modules/antd/*"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "dist", "scripts", "src/.wo/*",  "jest"]
+}
