@@ -24,13 +24,6 @@ declare let ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION: 'site' | undefine
 declare const REACT_APP_ENV: 'test' | 'dev' | 'pre' | false;
 declare let CUSTOM_ONLY_ENV_NAME: string | undefined;
 
-// wo library
-declare module "@tool-developer/wo-request";
-declare module "@tool-developer/wo-storage";
-declare module "@tool-developer/wo-storage/session";
-declare module "@tool-developer/wo-storage/async";
-declare module "@tool-developer/wo-utils";
-
 interface Window {
   reloadAuthorized: () => void;
 }
